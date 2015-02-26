@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dougszumski/NNet.svg?branch=master)](https://travis-ci.org/dougszumski/NNet)
+
 This is a C implementation of the neural network for handwriting recognition
 outlined in the free online book by Michael Nielsen:
 
