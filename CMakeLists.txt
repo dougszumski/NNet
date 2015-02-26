@@ -20,14 +20,14 @@ set(MAIN_SRC
 )
 
 add_executable(run ${MAIN_SRC})
-target_link_libraries (run gsl gslcblas nnet m)
+target_link_libraries (run nnet gsl gslcblas m)
 
-set (CMAKE_CXX_FLAGS "-Wall -std=c++11")
+set (CMAKE_CXX_FLAGS "-Wall")
 
 set(TEST_SRC
    ${PROJECT_SOURCE_DIR}/src/tests.cpp
 )
 
 add_executable(tests ${TEST_SRC})
-target_link_libraries (tests gsl gslcblas nnet m)
+target_link_libraries (tests nnet gsl gslcblas m)
 
