@@ -34,8 +34,8 @@
 // Number of nodes in each layer of the network
 uint32_t nodes[] = { 784, 30, 10 };
 
-const char * images_file = "./dat/train-images.idx3-ubyte";
-const char * labels_file = "./dat/train-labels.idx1-ubyte";
+const char * images_file = "./dat/train-images-idx3-ubyte";
+const char * labels_file = "./dat/train-labels-idx1-ubyte";
 
 int
 main (int argc, const char* argv[])

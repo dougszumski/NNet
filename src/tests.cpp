@@ -52,7 +52,7 @@ TEST_CASE( "Images read data", "[loader]" )
     REQUIRE(err > 0);
 
     // Read a known valid file
-    err = images_read_data (&img_data, "./dat/train-images.idx3-ubyte");
+    err = images_read_data (&img_data, "./dat/train-images-idx3-ubyte");
     REQUIRE(err == 0);
 
     // Check the file header
@@ -90,7 +90,7 @@ TEST_CASE( "Labels read data", "[loader]" )
     REQUIRE(err > 0);
 
     // Read a known valid file
-    err = labels_read_data (&lbl_data, "./dat/train-labels.idx1-ubyte");
+    err = labels_read_data (&lbl_data, "./dat/train-labels-idx1-ubyte");
     REQUIRE(err == 0);
 
     // Check the file header
